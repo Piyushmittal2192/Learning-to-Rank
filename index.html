@@ -4,25 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning to Rank — Interactive Explorer</title>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <style>
-      * { box-sizing: border-box; margin: 0; padding: 0; }
-      body { background: #05070c; }
-      input[type="range"] { cursor: pointer; }
-      ::-webkit-scrollbar { width: 6px; height: 6px; }
-      ::-webkit-scrollbar-track { background: #0b0e15; }
-      ::-webkit-scrollbar-thumb { background: #1e2736; border-radius: 3px; }
-    </style>
   </head>
   <body>
     <div id="root"></div>
-
-    <script type="text/babel" src="./ltr-explorer.jsx" data-type="module"></script>
-    <script type="text/babel">
-      const root = ReactDOM.createRoot(document.getElementById('root'));
-      root.render(<App />);
-    </script>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
